@@ -37,8 +37,9 @@ class PromotifulWebhook
         }
     }
 
-    public function sendRequest($body, $url, $key, $remoteIp, $timestamp)
+    public function sendRequest(Array $data, $url, $key, $remoteIp, $timestamp)
     {
+        $body = json_encode($data);
         $signature = $this->generateSHA1Signature($body, $this->secret);
 
         $context = stream_context_create(array(
