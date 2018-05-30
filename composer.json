@@ -1,0 +1,23 @@
+{
+  "name": "andreipop/promotiful-webhook",
+  "description": "Library for sending/validating promotiful webhook requests",
+  "keywords": ["promotiful", "webhook"],
+  "homepage": "https://github.com/andreipop2005/promotiful-webhook",
+  "authors": [
+    {
+      "name": "Andrei Pop",
+      "email": "andreipop2005@gmail.com",
+      "homepage": "https://andrei-pop.ro",
+      "role": "developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "AndreiPop\\Promotiful": "src/"
+    }
+  }
+}
