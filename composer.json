@@ -1,6 +1,6 @@
 {
   "name": "andreipop/promotiful-webhook",
-  "description": "Library for sending/validating promotiful webhook requests",
+  "description": "Library for sending/validating Promotiful webhook requests",
   "keywords": ["promotiful", "webhook"],
   "homepage": "https://github.com/andreipop2005/promotiful-webhook",
   "authors": [
