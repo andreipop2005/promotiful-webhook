@@ -16,8 +16,8 @@
     "php": "^7.0"
   },
   "autoload": {
-    "psr-0": {
-      "AndreiPop\\Promotiful": "src/"
+    "psr-4": {
+      "AndreiPop\\Promotiful\\": "src/"
     }
   }
 }
